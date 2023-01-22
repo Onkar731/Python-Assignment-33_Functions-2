@@ -7,7 +7,7 @@ Write a python function to check whether a number is prime (TSRS)
 def is_prime(num):
     i = 2
     while i<num:
-        if num%2 == 0:
+        if num%i == 0:
             return False
         i += 1
     
